@@ -52,7 +52,15 @@ VALUES
 	(39, 'Königlich Essen', 'Philip Cramer', 'Maubelstr. 90', 'Brandenburg' ,14776, 'Germany'),
 	(40, 'La corne d-abondance','Daniel Tonini','67 avenue de l-Europe','Versailles',	78000,	'France'),
 	(41, 'La maison dAsie','Annette Roulet','1 rue Alsace-Lorraine','Toulouse',	31000,'France'),
-	(42,  'Laughing Bacchus','Wine Cellars','Yoshi Tannamuri 1900 Oak St.','Vancouver',32156,'Canada');   
+	(42,  'Laughing Bacchus','Wine Cellars','Yoshi Tannamuri 1900 Oak St.','Vancouver',32156,'Canada'),
+    (43, 'Lazy K Kountry Store','John Steel','12 Orchestra Terrace','Walla Walla',99362,'USA'),
+	(44, 'Lehmanns Marktstand','Renate Messner','Magazinweg 7','Frankfurt a.M.',	60528,'Germany'),
+	(45, 'Lets Stop N Shop','Jaime Yorres','87 Polk St. Suite 5','San Francisco	',94117,'USA'),
+	(46, 'LILA-Supermercado','Carlos González','Carrera 52 con Ave. Bolívar #65-98 Llano Largo','Barquisimeto',3508,'Venezuela'),
+	(47, 'LINO-Delicateses','Felipe Izquierdo','Ave. 5 de Mayo Porlamar	I.','de Margarita',4980,'Venezuela'),
+	(48, 'Lonesome Pine Restaurant','Fran Wilson','89 Chiaroscuro Rd.','Portland' ,97219,'USA'),
+	(49, 'Magazzini Alimentari', 'Riuniti Giovanni Rovelli', 'Via Ludovico il Moro 22','Bergamo', 24100, 'Italy'),
+	(50, 'Maison Dewey', 'Catherine Dewey', 'Rue Joseph-Bens 532', 'Bruxelles', 1180, 'Belgium');
 
 -- to select all customers     
 select * from customers;
