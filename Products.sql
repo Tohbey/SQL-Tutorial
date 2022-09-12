@@ -60,3 +60,27 @@ VALUES
     (48, 'Chocolade',	22,	3	,'10 pkgs.',	12.75),
     (49, 'Maxilaku',	23,	3,'24 - 50 g pkgs.',	20),   
     (50, 'Valkoinen suklaa',	23,	3,	'12 - 100 g bars',	16.25);
+
+-- BETWEEN
+SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
+
+-- <>
+SELECT * FROM Products
+WHERE Price <> 18;
+
+-- <=
+SELECT * FROM Products
+WHERE Price <= 30;
+
+-- >=
+SELECT * FROM Products
+WHERE Price >= 30;
+
+-- >
+SELECT * FROM Products
+WHERE Price > 30;
+
+-- <
+SELECT * FROM Products
+WHERE Price < 30;

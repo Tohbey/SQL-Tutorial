@@ -87,30 +87,6 @@ WHERE City IN ('Paris','London');
 SELECT * FROM Customers
 WHERE City LIKE 's%';
 
--- BETWEEN
--- SELECT * FROM Products
--- WHERE Price BETWEEN 50 AND 60;
-
--- <>
--- SELECT * FROM Products
--- WHERE Price <> 18;
-
--- <=
--- SELECT * FROM Products
--- WHERE Price <= 30;
-
--- >=
--- SELECT * FROM Products
--- WHERE Price >= 30;
-
--- >
--- SELECT * FROM Products
--- WHERE Price > 30;
-
--- <
--- SELECT * FROM Products
--- WHERE Price < 30;
-
 -- AND
 select * from customers where Country='Germany' AND City='Berlin';
 
