@@ -1,0 +1,7 @@
+Steps:
+- Navigate to course_work.py file on your visual studio code.
+note: you can change the database name on line 9
+- Run the course_work.py to create the tables and populate the database.
+- comment from line 163 to line 177. this is done to prevent duplicate records in the database.
+- Navigate to any of the other python files course_Work_sol_4, course_Work_sol_3 and course_Work_sol_2.
+- Run any of them and test.
